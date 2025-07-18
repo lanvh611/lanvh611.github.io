@@ -1,36 +1,17 @@
-
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffbe7;
+  color: #333;
   text-align: center;
-  padding: 10px;
+  padding: 50px;
 }
 
-.container div {
-  margin-bottom: 20px;
+.container {
+  max-width: 600px;
+  margin: auto;
 }
 
 img {
-  width: 100%;
-  height: auto;
-}
-
-/* Media query 1: ≥ 600px */
-@media (min-width: 600px) {
-  .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .container div {
-    width: 45%;
-    margin-bottom: 20px;
-  }
-}
-
-/* Media query 2: ≥ 900px */
-@media (min-width: 900px) {
-  .container div {
-    width: 30%;
-  }
+  width: 200px;
+  margin-top: 20px;
 }
